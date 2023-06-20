@@ -1,16 +1,104 @@
 /*I planned a lot of my colors in Figma */
 /*I found a color palette that I liked and stuck with it*/
+* {
+    box-sizing: border-box;
+  }
+
+
 :root {
  /* I used one of my favorite albums for a color palette, using https://coolors.co/ to transfer it into a palette. */
---prussian-blue: #073754ff;
---cinereous: #A58F8Aff;
---outer-space: #495358ff;
---paynes-gray: #4D768Bff;
---azure-web: #E3F1F3ff;
---burnt-umber: #7B3B27ff;
+--pb: #073754ff;
+--cin: #A58F8Aff;
+--os: #495358e0;
+--pg: #4D768Bff;
+--aw: #E3F1F3ff;
+--bu: rgb(228, 90, 48);
+--wh: #ffffff; 
 }
 
-.banner {
-    background: var(--prussian-blue);
-    background-image: url
+
+body {
+    margin: auto;
+    padding: auto;
+    /*switched to arial for my primary font, it is the most professional in my opinion*/
+    font-family: Arial, 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', 'Trebuchet MS', sans-serif;
+    color: var(--wh);
+    background-color: var(--pg);
+    line-height: 1.2;
+}
+
+
+/*Header stuff*/
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--bu);
+    background-color: var(--pb);
+    padding: 4px 8px;
+    
+}
+
+header h1 {
+    font-size: 3rem;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space;
+    margin-right: 15px;
+}
+
+nav a {
+    padding: 2px 4px;
+    color:var(--wh);
+    margin-right: 30px;
+}
+
+nav a:hover {
+    background-size: 20% 20%;
+    color: var(--cin);
+}
+
+
+/*Originally had set to auto for margins, read that it should be 0, reference codes also use 0*/
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    color: var(--bu);
+}
+
+p {
+    margin: 0;
+}
+
+.contact-header {
+    display: inline-block;
+    color: var(--aw);
+
+}
+
+.contact-header:hover {
+    color: var(--cin)
+}
+
+
+
+.main-body {
+margin-left: 12%;
+max-width: 65%;
+}
+
+
+.personal {
+
 }
