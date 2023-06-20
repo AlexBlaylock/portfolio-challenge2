@@ -81,6 +81,11 @@ p {
     margin: 0;
 }
 
+.flex-box {
+    display: flex;
+    justify-content: center;
+}
+
 .contact-header {
     display: inline-block;
     color: var(--aw);
