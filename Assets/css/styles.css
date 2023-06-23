@@ -14,6 +14,8 @@
 --aw: #E3F1F3ff;
 --bu: rgb(228, 90, 48);
 --wh: #ffffff; 
+--ss: #FDD08F;
+--bl: #000;
 }
 
 
@@ -33,47 +35,50 @@ body {
 
 header {
     display: flex;
+    justify-content: center;
     flex-direction: row;
-    justify-content: space-between;
     align-items: center;
     color: var(--bu);
-    padding: 4px 8px;
+    background-image: url("../images/odeszabackground.jpg"); /*image I found on google*/
+    background-size: cover;
+    min-height: 100vh;
+    
     
 }
+    
 
 header h1 {
+    position: absolute;
     font-size: 3rem;
-    margin-left: 20px;
-    margin-bottom: 20px;
+    top: 55% ;
+    left: auto;
+    transition: all 1.5s ease-in;
+
 }
 
 nav {
     display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: space;
-    margin-right: 15px;
+    flex-direction: row;
+    position: absolute;
+
+    top: 65%;
+    left: auto;
+    
 }
 
 nav a {
-    padding: 2px 4px;
-    color:var(--wh);
-    margin-right: 30px;
+    padding: 2px 40px;
+    font-size: 28px;
+    color: var(--wh);
+    transition: all 2.5s ease-in;
+    display: inline-block;
+    
+
 }
 
 nav a:hover {
-    background-size: 20% 20%;
+    background-size: 100% 100%;
     color: var(--cin);
-}
-
-.odesza-banner {
-    background: var(--cin);
-    background-image: url("./assets/css/images/odeszabackground.jpg");
-    background-size: cover;
-    min-height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 /*Originally had set to auto for margins, read that it should be 0, reference codes also use 0*/
