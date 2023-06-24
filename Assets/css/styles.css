@@ -69,6 +69,7 @@ nav a {
     font-size: 28px;
     color: var(--wh);
     display: inline-block;
+
     
 }
 
@@ -110,26 +111,28 @@ p {
 
 
 .main-body {
-
+min-height: 120vh;
 }
 
 
 .personal {
-justify-content: center;
-flex-direction: row;
+display:flex;
+flex-direction: column;
 }
 
 .personal h2 {
-    display: flex;
     justify-content: center;
     font-size: 300%;
-    text-decoration-line: underline ;
+    margin: auto;
+    text-decoration-line: underline;
 
 }
 
 .personal p {
-    justify-content: center;
-    max-width: 67%;
+    justify-content: ;
+    max-width: 50%;
     padding-top: 10px;
-
+    margin: auto;
 }
+
+.portfolio-section
