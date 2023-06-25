@@ -206,9 +206,9 @@ height: 100vh;
     color: var(--ss);
     -webkit-text-stroke: 2px var(--bl);
 }
-/* ph3 */
+/* ph3, img from https://www.pexels.com/photo/close-up-photo-of-gray-laptop-577210/ */
 #ph3 {
-    background-image: url("../images/ph1.png");
+    background-image: url("../images/ph3.png");
     position: absolute;
     left: 7.5%;
     top: 215%;
@@ -217,14 +217,14 @@ height: 100vh;
 #ph3 h3 {
     position: absolute;
     top: 75%;
-    left: 9%;
+    left: 7%;
     font-size: 4rem;
     color: var(--ss);
     -webkit-text-stroke: 2px var(--bl);
 }
-/* ph4 */
+/* ph4, img from https://www.pexels.com/photo/turned-on-computer-monitor-displaying-text-270360/ */
 #ph4 {
-    background-image: url("../images/ph1.png");
+    background-image: url("../images/ph4.png");
     position: absolute;
     left: 37.5%;
     top: 215%;
@@ -239,9 +239,9 @@ height: 100vh;
     -webkit-text-stroke: 2px var(--bl);
 }
 
-/* ph5 */
+/* ph5, img from https://www.pexels.com/photo/close-up-photo-of-keyboard-220357/*/
 #ph5 {
-    background-image: url("../images/ph1.png");
+    background-image: url("../images/ph5.png");
     position: absolute;
     left: 67.5%;
     top: 215%;
@@ -249,7 +249,7 @@ height: 100vh;
 #ph5 h3 {
     position: absolute;
     top: 75%;
-    left: 9%;
+    left: 11%;
     font-size: 4rem;
     color: var(--ss);
     -webkit-text-stroke: 2px var(--bl);
