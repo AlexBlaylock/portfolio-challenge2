@@ -150,6 +150,30 @@ justify-content: space-evenly;
     text-decoration-line: underline;
 }
 
+.pf-item {
+    min-height: 275px;
+    min-width: 500px;
+    background: var(--bl);
+    display: flex;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    border: 8px solid var(--bl);
+}
+
+.pf-item h3 {
+    font-size: 2.5rem;
+}
+
 #SEO {
     background-image: url("../images/chall1.png");
+    position: absolute;
+    left: 37.5%;
+    top: 130%;
+}
+
+#ph1 {
+    background-image: url("../images/placeholder-image.png");
+    position: absolute;
+    left: 37.5%;
+    top: 130%;
 }
