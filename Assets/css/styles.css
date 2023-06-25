@@ -16,6 +16,8 @@
 --wh: #ffffff; 
 --ss: #FDD08F;
 --bl: #000;
+
+
 }
 
 
@@ -52,14 +54,15 @@ header h1 {
     font-size: 3rem;
     top: 55% ;
     left: auto;
-
+    -webkit-text-stroke: .5px var(--ss)
+    
 }
 
 nav {
     display: flex;
     flex-direction: row;
     position: absolute;
-    top: 65%;
+    top: 64%;
     left: auto;
     
 }
@@ -67,7 +70,7 @@ nav {
 nav a {
     padding: 2px 40px;
     font-size: 28px;
-    color: var(--wh);
+    color: var(--ss);
     display: inline-block;
 
     
@@ -99,17 +102,6 @@ p {
     flex-wrap: wrap;
 }
 
-.contact-header {
-    display: inline-block;
-    color: var(--aw);
-
-}
-
-.contact-header:hover {
-    color: var(--cin)
-}
-
-
 
 .main-body {
 min-height: 160vh;
@@ -119,14 +111,16 @@ min-height: 160vh;
 .personal {
 display:flex;
 flex-direction: column;
-min
+
 }
 
 .personal h2 {
     justify-content: center;
     font-size: 300%;
     margin: auto;
-    text-decoration-line: underline;
+    border-bottom: var(--bl) 2.5px solid;
+    padding: 0px 25%;
+    
 
 }
 
@@ -140,7 +134,7 @@ min
 .portfolio-section {
 display: flex;
 justify-content: space-evenly;
-
+height: 100vh;
 }
 
 .portfolio-section h2 {
@@ -168,12 +162,122 @@ justify-content: space-evenly;
     background-image: url("../images/chall1.png");
     position: absolute;
     left: 37.5%;
-    top: 130%;
+    top: 180%;
 }
 
+#SEO h3 {
+    position: absolute;
+    top: 75%;
+    left: 35%;
+    font-size: 4rem;
+    color: var(--ss);
+    -webkit-text-stroke: 2px var(--bl);
+}
+
+/* I used https://www.pexels.com/search/computer/ for my placeholder images */
+/* ph1, image from https://www.pexels.com/photo/macbook-pro-on-brown-wooden-table-2312369/ */
 #ph1 {
-    background-image: url("../images/placeholder-image.png");
+    background-image: url("../images/ph1.png");
+    position: absolute;
+    left: 7.5%;
+    top: 180%;
+}
+
+#ph1 h3 {
+    position: absolute;
+    top: 75%;
+    left: 2%;
+    font-size: 4rem;
+    color: var(--ss);
+    -webkit-text-stroke: 2px var(--bl);
+}
+/* ph2, image from https://www.pexels.com/photo/photo-of-a-person-using-a-gray-laptop-computer-2874782/*/
+#ph2 {
+    background-image: url("../images/ph2.png");
+    position: absolute;
+    left: 67.5%;
+    top: 180%;
+}
+#ph2 h3 {
+    position: absolute;
+    top: 75%;
+    left: 4%;
+    font-size: 4rem;
+    color: var(--ss);
+    -webkit-text-stroke: 2px var(--bl);
+}
+/* ph3 */
+#ph3 {
+    background-image: url("../images/ph1.png");
+    position: absolute;
+    left: 7.5%;
+    top: 215%;
+}
+
+#ph3 h3 {
+    position: absolute;
+    top: 75%;
+    left: 9%;
+    font-size: 4rem;
+    color: var(--ss);
+    -webkit-text-stroke: 2px var(--bl);
+}
+/* ph4 */
+#ph4 {
+    background-image: url("../images/ph1.png");
     position: absolute;
     left: 37.5%;
-    top: 130%;
+    top: 215%;
+}
+
+#ph4 h3 {
+    position: absolute;
+    top: 75%;
+    left: 9%;
+    font-size: 4rem;
+    color: var(--ss);
+    -webkit-text-stroke: 2px var(--bl);
+}
+
+/* ph5 */
+#ph5 {
+    background-image: url("../images/ph1.png");
+    position: absolute;
+    left: 67.5%;
+    top: 215%;
+}
+#ph5 h3 {
+    position: absolute;
+    top: 75%;
+    left: 9%;
+    font-size: 4rem;
+    color: var(--ss);
+    -webkit-text-stroke: 2px var(--bl);
+}
+
+.contact-section{
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 250%;
+    left: 30%
+}
+
+.contact-section h4{
+    font-size: 3rem;
+}
+
+.contact-section a {
+    margin: auto;
+}
+.contact-header {
+    display: inline-block;
+    color: var(--aw);
+    font-size: 1.7rem;
+    justify-content: space-between;
+
+}
+
+.contact-header:hover {
+    color: var(--cin)
 }
